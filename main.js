@@ -36,6 +36,6 @@ document.getElementById("circle").onclick = function(){
     document.getElementById("circle").style.display= "none"
     var end = new Date().getTime()
     var timeTaken = (end-start)/1000
-    alert(timeTaken);
+    alert("Reaction time: " + timeTaken + " seconds");
     move();
 }

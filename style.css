@@ -20,8 +20,7 @@ p {
 #circle{
     width: 200px;
     height: 200px;
-    background-color: blueviolet;
-    border-radius: 50%;
+    background-color: blueviolet; 
     position: absolute;
     margin: 50px;
 }
