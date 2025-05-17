@@ -15,13 +15,13 @@ function getColor(){
 
 function move(){
     var left = Math.random() *200
-    var right = Math.random() *200
+    var top = Math.random() *200
     var wh = (Math.random() *300) +100
 
 
     //sets the style
     document.getElementById("circle").style.left = left + "px";
-    document.getElementById("circle").style.right = right + "px";
+    document.getElementById("circle").style.top = top + "px";
     document.getElementById("circle").style.width = wh + "px";
     document.getElementById("circle").style.height = wh + "px";
     document.getElementById("circle").style.display="block";

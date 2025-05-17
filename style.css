@@ -17,10 +17,12 @@ p {
     color: aqua;
 }
 
-#circle{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet; 
-    position: absolute;
-    margin: 50px;
+#circle {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  position: absolute;
+  display: none; /* hide initially */
+  top: 0;
+  left: 0;
 }
